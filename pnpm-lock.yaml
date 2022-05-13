@@ -1,0 +1,11 @@
+lockfileVersion: 5.3
+
+importers:
+
+  packages/adder:
+    specifiers:
+      add-one: workspace:^1.0.0
+      add-two: workspace:^1.0.0
+    dependencies:
+      add-one: link:../add-one
+      add-two: link:../add-two
